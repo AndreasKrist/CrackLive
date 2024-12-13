@@ -3,4 +3,5 @@ numpy
 opencv-python-headless
 opencv-python
 ultralytics
+ultralytics-thop
 cv2
