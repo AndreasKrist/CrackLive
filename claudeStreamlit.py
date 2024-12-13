@@ -1,5 +1,5 @@
 import streamlit as st
-from ultralytics import YOLO
+import ultralytics
 import cv2
 import numpy as np
 
@@ -7,10 +7,10 @@ def main():
     st.title('Crack Detection Live Stream')
     
     # Load the YOLO model
-    model = YOLO('best.pt')
+    model = ultralytics.YOLO('best.pt')
     
     # Start/Stop detection
-    run_detection = st.checkbox('Start Crack Detection')
+    run_detection = st.checkbox('Start Crack Detections')
     
     if run_detection:
         # Create a placeholder for the video stream
