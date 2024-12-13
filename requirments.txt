@@ -1,4 +1,4 @@
 streamlit
-ultralytics.YOLO
+ultralytics
 cv2
 numpy
