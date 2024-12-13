@@ -1,6 +1,6 @@
 import streamlit as st
-import ultralytics
 import cv2
+import ultralytics
 import numpy as np
 
 def main():
