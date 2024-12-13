@@ -24,7 +24,7 @@ def main():
             ret, frame = cap.read()
             
             if not ret:
-                st.error('Failed to grab frame')
+                st.error('Failed to grab frame ')
                 break
             
             # Perform prediction on the frame
