@@ -1,4 +1,4 @@
 streamlit
-ultralytics
-cv2
 numpy
+ultralytics
+opencv-python-contrib-headless
