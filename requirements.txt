@@ -2,6 +2,4 @@ streamlit
 numpy
 opencv-python-headless
 opencv-python
-ultralytics
-ultralytics-thop
-cv2
+ultralytics==8.0.28
