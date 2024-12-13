@@ -1,7 +1,9 @@
 import streamlit as st
+import numpy as np
+
 import cv2
 import ultralytics
-import numpy as np
+
 
 def main():
     st.title('Crack Detection Live Stream')
